@@ -12,6 +12,8 @@
 		F1F2E04C2078A38800909CD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1F2E04A2078A38800909CD8 /* Main.storyboard */; };
 		F1F2E04E2078A38C00909CD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1F2E04D2078A38C00909CD8 /* Assets.xcassets */; };
 		F1F2E0512078A38C00909CD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1F2E04F2078A38C00909CD8 /* LaunchScreen.storyboard */; };
+		F1F2E0592078A42B00909CD8 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F2E0582078A42B00909CD8 /* Person.swift */; };
+		F1F2E05B2078B1FB00909CD8 /* DetailVcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F2E05A2078B1FB00909CD8 /* DetailVcViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		F1F2E04D2078A38C00909CD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1F2E0502078A38C00909CD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F1F2E0522078A38C00909CD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1F2E0582078A42B00909CD8 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		F1F2E05A2078B1FB00909CD8 /* DetailVcViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVcViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				F1F2E04D2078A38C00909CD8 /* Assets.xcassets */,
 				F1F2E04F2078A38C00909CD8 /* LaunchScreen.storyboard */,
 				F1F2E0522078A38C00909CD8 /* Info.plist */,
+				F1F2E0582078A42B00909CD8 /* Person.swift */,
+				F1F2E05A2078B1FB00909CD8 /* DetailVcViewController.swift */,
 			);
 			path = UITableViewTest;
 			sourceTree = "<group>";
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1F2E0592078A42B00909CD8 /* Person.swift in Sources */,
 				F1F2E0492078A38800909CD8 /* ViewController.swift in Sources */,
+				F1F2E05B2078B1FB00909CD8 /* DetailVcViewController.swift in Sources */,
 				F1F2E0472078A38800909CD8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
